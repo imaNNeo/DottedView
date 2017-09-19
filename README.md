@@ -6,36 +6,7 @@ By this library you can make everything you want with Dots.
 
 ## 1 - Getting Started
 
-By this instructions you can add this library and i will explain how use it.
-
-<img src="http://ikhoshabi.com/ss/DottedView/main_screenshot.png" width="400">
-
-
-### Add Maven to your root build.gradle
-
-First of all Add it in your root build.gradle at the end of repositories:
-
-```
-allprojects {
-  repositories {
-    ...
-    maven { url 'https://jitpack.io' }
-	}
-}
-```
-
-### Add Dependency
-
-Add the dependency to your app build.gradle file
-
-```
-dependencies
-{
-    compile 'com.github.imaNNeoFighT:DottedView:-SNAPSHOT'
-}
-```
-
-And then sync your gradle and take a tea.
+Download and add library as module
 
 
 ## 2 - About The View
