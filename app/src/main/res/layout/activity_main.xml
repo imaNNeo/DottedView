@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.neo.dottedviewsample.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="24dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dotSize 12dp , strokeSize 0dp , HSpace 4dp , dotColor gray"
+                    android:layout_marginBottom="6dp"
+                    android:textSize="13sp"
+                    android:textColor="#000"
+                    />
+
+                <com.neo.dottedview.DottedView
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+                    app:dv_dotSize="12dp"
+                    app:dv_dotStrokeWidth="0dp"
+                    app:dv_dotHSpace="4dp"
+                    app:dv_dotColor="#545454"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="24dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dotSize 8dp , strokeSize 0dp , HSpace 0dp , dotColor red"
+                    android:layout_marginBottom="6dp"
+                    android:textSize="13sp"
+                    android:textColor="#000"
+                    />
+
+                <com.neo.dottedview.DottedView
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    app:dv_dotSize="8dp"
+                    app:dv_dotStrokeWidth="0dp"
+                    app:dv_dotHSpace="0dp"
+                    app:dv_dotColor="#ff0000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="24dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dotSize 20dp , strokeSize 4dp , HSpace 22dp , dotColor pink , strokeColor green"
+                    android:layout_marginBottom="6dp"
+                    android:textSize="13sp"
+                    android:textColor="#000"
+                    />
+
+                <com.neo.dottedview.DottedView
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    app:dv_dotSize="20dp"
+                    app:dv_dotStrokeWidth="4dp"
+                    app:dv_dotHSpace="22dp"
+                    app:dv_dotColor="#fb00ff"
+                    app:dv_dotStrokeColor="#0dff00"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="24dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dotSize 18dp , strokeSize 4dp , HSpace 0dp , VSpace 18dp , dotColor #707070 , strokeColor #25af7f"
+                    android:layout_marginBottom="6dp"
+                    android:textSize="13sp"
+                    android:textColor="#000"
+                    />
+
+                <com.neo.dottedview.DottedView
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    app:dv_dotSize="18dp"
+                    app:dv_dotStrokeWidth="4dp"
+                    app:dv_dotHSpace="0dp"
+                    app:dv_dotVSpace="18dp"
+                    app:dv_dotColor="#707070"
+                    app:dv_dotStrokeColor="#25af7f"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

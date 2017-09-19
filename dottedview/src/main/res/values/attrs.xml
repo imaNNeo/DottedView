@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DottedView">
+        <attr name="dv_dotColor" format="color" />
+        <attr name="dv_dotSize" format="dimension" />
+        <attr name="dv_dotHSpace" format="dimension" />
+        <attr name="dv_dotVSpace" format="dimension" />
+        <attr name="dv_dotStrokeColor" format="color" />
+        <attr name="dv_dotStrokeWidth" format="dimension" />
+        <!--<attr name="dv_orientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+            <enum name="both" value="2"/>
+        </attr>-->
+    </declare-styleable>
+
+
+</resources>
